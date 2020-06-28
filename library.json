@@ -1,0 +1,30 @@
+{
+    "name": "SpriteToBmp",
+    "keywords": "m5stick-c TFT_eSprite bitmap base64",
+    "description": "Arduino(M5Stick-C) Library for encoding TFT_eSprite to Windows Bitmap using base64.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hankei6km/SpriteToBmp.git"
+    },
+    "authors": {
+        "name": "hankei6km",
+        "email": "hankei6km@gmail.com",
+        "maintainer": true
+    },
+    "dependencies": [
+        {
+            "name": "Base64",
+            "version": "^1.0.0"
+        }
+    ],
+    "build": {
+        "flags": [
+            "-Iinclude"
+        ],
+        "includeDir": "lib/SpriteToBmpCore",
+        "srcDir": "lib"
+    },
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+}
