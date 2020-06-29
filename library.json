@@ -1,6 +1,6 @@
 {
     "name": "SpriteToBmp",
-    "keywords": "m5stick-c TFT_eSprite bitmap base64",
+    "keywords": "m5stick-c tft esprite bitmap base64",
     "description": "Arduino(M5Stick-C) Library for encoding TFT_eSprite to Windows Bitmap using base64.",
     "repository": {
         "type": "git",
