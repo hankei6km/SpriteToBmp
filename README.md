@@ -11,4 +11,5 @@ $ pio device monitor -b 115200 | grep -e "==== BMP:" | sed -e "s/==== BMP://" | 
 ```
 - Quit monitor when `Ctrl-C` displayed on M5Stick-C
 - `.png` files has been saved on host pc.
-![]()
+
+Further Information: [TFT_eSprite を Windows Bitmap 形式へ変換し Base64 エンコードするライブラリ(SpriteToBmp) | SSD: SHORT SLOW DISTANCE](https://hankei6km.github.io/posts/2020-07-sprite-to-bmp/)
